@@ -4,7 +4,8 @@
 
 locals {
 
-  redis_enabled = var.asg_desired_capacity > 1 ? true : false
+  # redis_enabled = var.asg_desired_capacity > 1 ? true : false
+  redis_enabled = false
 
   common_tags_map = {
     application      = "fyde-access-proxy"
