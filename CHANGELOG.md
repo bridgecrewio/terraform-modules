@@ -2,7 +2,6 @@
 
 ## v1.1.0
 
-- Require terraform 0.13 to allow validations
 - Update README and misc logic
 - Allow using custom AMI
 - Add CloudWatch logs configuration
